@@ -63,6 +63,7 @@ The AI-Powered Chatbot System is a web-based chatbot application developed using
 
 ## Project Structure
 
+```text
 Sai_AI_Chatbot_System/
 │
 ├── app.py
@@ -78,6 +79,7 @@ Sai_AI_Chatbot_System/
 │   └── style.css
 │
 └── venv/
+```
 
 
 ## File Description
@@ -180,6 +182,7 @@ sudo systemctl status chatbot
 
 
 ## Chatbot Workflow
+```text
 
 User Question
       │
@@ -201,6 +204,8 @@ Return Response   Default Message
       │
       ▼
 Display to User
+```
+
 
 
 ## Advantages
