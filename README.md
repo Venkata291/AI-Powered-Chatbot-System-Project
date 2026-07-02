@@ -233,7 +233,7 @@ Display to User
 This project demonstrates the development of a simple AI-powered chatbot using Python and Flask. It uses rule-based intent matching to provide quick responses and can be successfully deployed on AWS EC2 using Gunicorn and Systemd. The project serves as a strong foundation for building advanced chatbot systems using Artificial Intelligence and Machine Learning.
 
 ## Author
-Venkata Saibabu Kalluri
-Cloud Computing Internship Project
-AI-Powered Chatbot System
+**Venkata Saibabu Kalluri**
+- Cloud Computing Internship
+- Project: AI-Powered Chatbot System
 
