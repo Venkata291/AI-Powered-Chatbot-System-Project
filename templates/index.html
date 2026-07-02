@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Sai AI Chatbot</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="chatbox">
+
+<h2>Sai AI Chatbot</h2>
+
+<form method="POST">
+
+<input
+type="text"
+name="message"
+placeholder="Ask your question..."
+required>
+
+<br><br>
+
+<button type="submit">Send</button>
+
+<a href="/clear">
+<button type="button">Clear Chat</button>
+</a>
+
+</form>
+
+<hr>
+
+{% for chat in history %}
+
+<div class="user">
+
+<b>You :</b> {{ chat.user }}
+
+</div>
+
+<br>
+
+<div class="bot">
+
+<b>Bot :</b> {{ chat.bot }}
+
+</div>
+
+<hr>
+
+{% endfor %}
+
+</div>
+
+</body>
+
+</html>
+
